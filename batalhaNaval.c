@@ -13,7 +13,7 @@ int main() {
         tabuleiroNovato[x_horizontal][y_horizontal + j] = 3;
     }
 
-    printf("=== Batalha Naval - Nivel Novato ===\n\n");
+    printf("Batalha Naval - Nivel Novato\n\n");
 
     printf("Navio Vertical (coordenadas):\n");
     for (int i = 0; i < tamanho_vertical; i++) {
@@ -41,7 +41,7 @@ int main() {
         tabuleiroAventureiro[8 - k][1 + k] = 3;
     }
 
-    printf("\n\n=== Batalha Naval - Nivel Aventureiro ===\n\n");
+    printf("\n\nBatalha Naval - Nivel Aventureiro\n\n");
     printf("Tabuleiro 10x10 (0 = vazio, 3 = navio):\n\n");
 
     for (int i = 0; i < 10; i++) {
@@ -51,7 +51,7 @@ int main() {
         printf("\n");
     }
     
-    printf("\n\n=== Batalha Naval - Nivel Mestre ===\n\n");
+    printf("\n\nBatalha Naval - Nivel Mestre\n\n");
 
     int cone[5][5] = {0};
     for (int i = 0; i < 3; i++) { 
